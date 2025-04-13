@@ -43,3 +43,36 @@ To use the `azure_graph_device_management` module, follow these steps:
 
        - debug:
            var: result
+
+
+results:
+  device_compliance_policies:
+    - ... # List of device compliance policies
+  applications:
+    - ... # List of mobile applications
+  app_configurations:
+    - ... # List of app configurations
+  app_protections:
+    ios: 
+      - ... # List of iOS managed app protections
+    android:
+      - ... # List of Android managed app protections
+    windows:
+      - ... # List of Windows managed app protections
+    mdm:
+      - ... # List of MDM Windows Information Protection policies
+  device_configurations:
+    configuration_policies:
+      - ... # List of configuration policies
+    device_configurations:
+      - ... # List of device configurations
+    group_policy_configurations:
+      - ... # List of group policy configurations
+    mobile_app_configurations:
+      - ... # List of mobile app configurations
+  remediation_scripts:
+    - ... # List of remediation scripts
+  platform_scripts:
+    - ... # List of platform management scripts
+  windows_autopilot_profiles:
+    - ... # List of Windows Autopilot profiles
